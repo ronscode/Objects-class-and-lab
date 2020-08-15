@@ -13,14 +13,12 @@ let jackSparrow = {
 	age: "unknown",
 	boat: "Queen Mary",
 };
-for (key in jackSparrow) {
-	console.log(`${key}: ${jackSparrow[key]}`);
-}
-// function personInfo(person) {
-// 	for (key in person) {
-// 		console.log(`${key}: ${person[key]}`);
-// 	}
-// }
 
-// personInfo(peterPan);
-// personInfo(jackSparrow);
+function personInfo(person) {
+	for (key in person) {
+		console.log(`${key}: ${person[key]}`);
+	}
+}
+
+personInfo(peterPan);
+personInfo(jackSparrow);

@@ -3,7 +3,6 @@ Print the entries of the object */
 
 let anObject = `{
   "name": "George", "age": 40, "town": "Atlanta" }`;
-console.log(anObject);
 
 function objConverter(someJSON) {
 	let newObject = JSON.parse(someJSON);

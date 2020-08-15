@@ -9,3 +9,9 @@ function convertJSON(name, lastName, hairColor) {
 }
 
 convertJSON("Jones", "George", "Brown");
+
+let newObject = {
+	name: "Jones",
+	lastName: "George",
+	hairColor: "Brown",
+};

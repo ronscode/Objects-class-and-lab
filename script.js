@@ -1,27 +1,18 @@
-class Car {
-	constructor(brand, year, miles) {
-		this.carname = brand;
-		this.caryear = year;
-		this.carmiles = miles;
-	}
-}
+let myString = "Ron";
 
-theSameCar = new Car("Ford", 2020, 20000);
-
-var thisCar = {
-	carname: "Beige Tesla",
-	caryear: 2022,
-	carmiles: ["I'm a km", 9],
+let myObj = {
+	name: "Ron",
 };
 
-//myOtherCar = new Car("Beige Tesla", 2022, 0);
+myString += " Someone";
 
-console.log(mycar);
-/*  {
-  carname: 'Beige Tesla',
-  caryear: 2022,
-  carmiles: [ "I'm a km", 9 ]
-} */
+//console.log(myString);
+//console.log(myObj.name);
 
-//console.log(myOtherCar);
-//console.log(myOtherCar);
+myString = "Not Ron";
+myObj["newKey"] = "This is a new key";
+console.log(myObj);
+
+myObj["name"] = "Not Ron again.";
+console.log(myObj);
+//console.log(myString);
